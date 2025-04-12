@@ -19,4 +19,4 @@ if st.button("Analyze Sentiment"):
         prediction = model.predict(transformed)[0]
         st.markdown(f"### Sentiment: {prediction}")
     else:
-        st.warning("Please enter a review.")
+        st.warning("Please enter a review.") 
